@@ -15,9 +15,6 @@ const Invoice = () => {
         <div>
             <h1>Invoice</h1>
             <p>Client: {client}</p>
-            <p>Details: {details}</p>
-            <p>Amount: ${amount}</p>
-            <button onClick={printInvoice}>Print Invoice</button>
         </div>
     );
 };
